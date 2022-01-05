@@ -1,7 +1,7 @@
 # go-grpc
 go-grpc for k8s client
 
-基于https://github.com/grpc/grpc-go封装了 grpc 包，基础版本为v1.23.0，实现了基于kubernetes的client端服务发现。
+基于 [grpc-go]( https://github.com/grpc/grpc-go ) 封装了 grpc 包，基础版本为v1.23.0，实现了基于kubernetes的client端服务发现。
 
 
 提供了 client 和 server。封装了 服务发现，重试，metrics(TODO)的逻辑。使调用者无需关心
