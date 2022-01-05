@@ -12,8 +12,8 @@ import (
 	"syscall"
 	"time"
 
+	log "github.com/bwhour/go-grpc/lib/go-log"
 	"github.com/bwhour/go-grpc/lib/grpc"
-	log "github.com/bwhour/go-log"
 )
 
 var (

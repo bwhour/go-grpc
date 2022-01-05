@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/bwhour/go-grpc/lib/go-log"
 	"github.com/bwhour/go-grpc/lib/grpc"
 	"github.com/bwhour/go-grpc/lib/grpc/codes"
 	"github.com/bwhour/go-grpc/lib/grpc/status"
 	ecpb "github.com/bwhour/go-grpc/lib/grpc/test/examples/features/proto/echo"
 	"github.com/bwhour/go-grpc/server"
-	"github.com/bwhour/go-log"
 )
 
 type ecServer struct {
