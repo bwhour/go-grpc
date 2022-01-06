@@ -3,10 +3,15 @@
 
 package envoy_type
 
-import proto "github.com/bwhour/go-grpc/lib/protobuf/proto"
-import fmt "fmt"
-import math "math"
-import _ "github.com/bwhour/go-grpc/lib/grpc/xds/internal/proto/validate"
+import (
+	fmt "fmt"
+
+	proto "github.com/bwhour/go-grpc/lib/protobuf/proto"
+
+	math "math"
+
+	_ "github.com/bwhour/go-grpc/lib/grpc/xds/internal/proto/validate"
+)
 
 // Reference imports to suppress errors if they are not otherwise used.
 var _ = proto.Marshal

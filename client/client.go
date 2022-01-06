@@ -9,12 +9,12 @@ import (
 	"time"
 
 	"github.com/bwhour/go-grpc/lib/grpc/codes"
+	"github.com/bwhour/go-grpc/lib/grpc/resolver/kuberesolver"
 	"github.com/bwhour/go-grpc/lib/grpc/status"
 
 	log "github.com/bwhour/go-grpc/lib/go-log"
+	"github.com/bwhour/go-grpc/lib/go-trace"
 	"github.com/bwhour/go-grpc/lib/grpc"
-	"github.com/bwhour/go-grpc/lib/grpc/resolver/kuberesolver"
-	"github.com/bwhour/go-trace"
 )
 
 const (

@@ -3,12 +3,19 @@
 
 package envoy_api_v2_core
 
-import proto "github.com/bwhour/go-grpc/lib/protobuf/proto"
-import fmt "fmt"
-import math "math"
-import wrappers "github.com/bwhour/go-grpc/lib/protobuf/ptypes/wrappers"
-import base "github.com/bwhour/go-grpc/lib/grpc/xds/internal/proto/envoy/api/v2/core/base"
-import _ "github.com/bwhour/go-grpc/lib/grpc/xds/internal/proto/validate"
+import (
+	fmt "fmt"
+
+	proto "github.com/bwhour/go-grpc/lib/protobuf/proto"
+
+	math "math"
+
+	wrappers "github.com/bwhour/go-grpc/lib/protobuf/ptypes/wrappers"
+
+	base "github.com/bwhour/go-grpc/lib/grpc/xds/internal/proto/envoy/api/v2/core/base"
+
+	_ "github.com/bwhour/go-grpc/lib/grpc/xds/internal/proto/validate"
+)
 
 // Reference imports to suppress errors if they are not otherwise used.
 var _ = proto.Marshal

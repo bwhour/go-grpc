@@ -3,12 +3,15 @@
 
 package grpc_gcp // import "github.com/bwhour/go-grpc/lib/grpc/credentials/alts/internal/proto/grpc_gcp"
 
-import proto "github.com/bwhour/go-grpc/lib/protobuf/proto"
-import fmt "fmt"
-import math "math"
-
 import (
+	fmt "fmt"
+
+	proto "github.com/bwhour/go-grpc/lib/protobuf/proto"
+
+	math "math"
+
 	grpc "github.com/bwhour/go-grpc/lib/grpc"
+
 	context "golang.org/x/net/context"
 )
 
